@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # ターゲットのURL
-url = 'https://twich.tv'
+url = 'https://www.twich.tv/'
 
 # ページの取得
 response = requests.get(url)
